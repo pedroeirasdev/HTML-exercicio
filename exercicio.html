@@ -8,7 +8,8 @@
 <body>
     <h1>Formulário de Cadastro</h1>
     <form>
-        <input type="text" placeholder="Nome Completo" />
+        <label for="name"></label>
+        <input id="name" type="text" placeholder="Nome Completo" />
         <br />
         <label for="email"></label>
         <input id="email" type="email" placeholder="E-mail" />
@@ -24,6 +25,10 @@
         <br />
         <input type="radio" name="formp" id="professor" /> <label for="professor">Professor(a)</label>
         <input type="radio" name="formp" id="aluno" /> <label for="aluno">Aluno(a)</label>
+        <br />
+        <button type="submit">
+            Cadastrar
+        </button>
     </form>
 </body>
 </html>
